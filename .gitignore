@@ -24,6 +24,17 @@ dist-ssr
 *.sw?
 .vite-source-tags.js
 .vercel
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
 # Environment variables
 .env
 **/.env
+
+# Node
+node_modules/
+dist/
